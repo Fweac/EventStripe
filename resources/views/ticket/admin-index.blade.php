@@ -9,9 +9,9 @@
     <div class="flex justify-center mt-2">
         <form action="{{ route('ticket.admin-index') }}" method="GET" class="w-full max-w-sm">
             <label for="search" >
-                <div class="flex items-center border-b border-b-2 border-teal-500 hover:border-gray-300 cursor-text py-2">
-                    <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" id="search" name="search" type="text" placeholder="Search by number" aria-label="Full name">
-                    <button class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-gray-300 text-sm border-4 text-gray-500 py-1 px-2 rounded" type="submit">
+                <div class="dark:border-gray-700 flex items-center border-b border-b-2 border-teal-500 hover:border-gray-300 cursor-text py-2">
+                    <input class="dark:text-gray-300 appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" id="search" name="search" type="text" placeholder="Search by number" aria-label="Full name">
+                    <button class="dark:border-gray-700 dark:text-gray-300 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-gray-300 text-sm border-4 text-gray-500 py-1 px-2 rounded" type="submit">
                         Search
                     </button>
                 </div>
