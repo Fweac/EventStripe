@@ -47,10 +47,10 @@
                     @auth
                         <li><a href="{{ url('/dashboard') }}" class="rounded-lg dark:text-gray-300 dark:hover:bg-yellow-400 dark:hover:text-gray-800 hover:bg-gray-100 py-2 px-6 flex">Dashboard</a></li>
                     @else
-                        <li><a href="{{ route('login') }}" class="rounded-lg dark:text-gray-300 dark:hover:bg-yellow-400  dark:hover:text-gray-800 hover:bg-gray-100 py-2 px-6 flex">Log in</a></li>
+                        <li><a href="{{ route('login') }}" class="rounded-lg dark:text-gray-300 dark:hover:bg-yellow-400 dark:hover:text-gray-800 hover:bg-gray-100 py-2 px-6 flex">Log in</a></li>
 
                         @if (Route::has('register'))
-                            <li><a href="{{ route('register') }}" class="rounded-lg dark:text-gray-300 dark:hover:bg-yellow-400  dark:hover:text-gray-800 hover:bg-gray-100 py-2 px-6 flex">Register</a></li>
+                            <li><a href="{{ route('register') }}" class="rounded-lg dark:text-gray-300 dark:hover:bg-yellow-400 dark:hover:text-gray-800 hover:bg-gray-100 py-2 px-6 flex">Register</a></li>
                         @endif
                     @endauth
                 @endif
